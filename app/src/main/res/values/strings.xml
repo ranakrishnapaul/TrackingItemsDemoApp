@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tracking Items Demo App</string>
+    <string name="title1">ALL ITEMS</string>
+    <string name="action_additems">ADD ITEM</string>
+    <string name="action_saveitems">Save</string>
+    <string name="action_clearitems">Reset</string>
+    <string name="action_deleteitems">Delete</string>
+    <string name="action_updateitems">Edit</string>
+    <string name="action_updateitems1">Update</string>
+    <string name="title_activity_data_entry">ADD ITEM</string>
+    <string name="title_item_details">ITEM DETAILS</string>
+    <string name="id">ID:</string>
+    <string name="name">NAME:</string>
+    <string name="desc">DESCRIPTION:</string>
+    <string name="loc">LOCATION:</string>
+    <string name="cost">COST(USD):</string>
+
+</resources>

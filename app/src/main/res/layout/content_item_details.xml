@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_item_details"
+    tools:context="com.sg.ranaz.trackingitemsdemoapp.ItemDetailsActivity">
+<ScrollView
+    android:id="@+id/detailspageScrollViewID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/detailspage_ItemImage_ImageViewID"
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="10dp"
+            android:clickable="false"
+            android:src="@drawable/noimage"
+            />
+
+        <TextView
+            android:id="@+id/detailspage_ItemID_TextViewID"
+            android:text="@string/id"
+            android:textSize="15sp"
+            android:textColor="#660000"
+            android:textStyle="normal"
+            android:layout_margin="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/detailspage_ItemName_TextViewID"
+            android:text="@string/name"
+            android:textSize="15sp"
+            android:textColor="#660000"
+            android:textStyle="normal"
+            android:layout_margin="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/detailspage_ItemDesc_TextViewID"
+            android:text="@string/desc"
+            android:textSize="15sp"
+            android:textColor="#660000"
+            android:textStyle="normal"
+            android:layout_margin="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/detailspage_ItemLoc_TextViewID"
+            android:text="@string/loc"
+            android:textSize="15sp"
+            android:textColor="#660000"
+            android:textStyle="normal"
+            android:layout_margin="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/detailspage_ItemCost_TextViewID"
+            android:text="@string/cost"
+            android:textSize="15sp"
+            android:textColor="#660000"
+            android:textStyle="normal"
+            android:layout_margin="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
+
+</ScrollView>
+
+
+</RelativeLayout>
